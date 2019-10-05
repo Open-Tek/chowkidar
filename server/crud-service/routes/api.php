@@ -28,3 +28,8 @@ Route::get('/floor/building/{id}/all', "Api\FloorRestController@allBySociety")->
 Route::get('/flat/all', "Api\FlatRestController@all")->name('building.all');
 Route::get('/flat/floor/{id}/all', "Api\FlatRestController@allByFloor")->name("flat.floor.all");
 // END of Flat Endpoints
+
+// START of Watchman Endpoints
+Route::get('/watchman/all', "Api\WatchmenRestController@all")->name('watchmen.all');
+Route::get('/watchman/society/{id}/all', "Api\WatchmenRestController@allBySociety")->name("flat.society.all");
+// END of Watchman Endpoints
