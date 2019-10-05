@@ -7,6 +7,11 @@ use App\Society;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+/**
+ * Class BuildingRestController
+ * @package App\Http\Controllers\Api
+ * Manages all the operations for buildings that will be used by the mobile device.
+ */
 class BuildingRestController extends Controller
 {
     /**
@@ -49,4 +54,5 @@ class BuildingRestController extends Controller
             "message" => "Some internal server error occurred"
         ], 500);
     }
+
 }
