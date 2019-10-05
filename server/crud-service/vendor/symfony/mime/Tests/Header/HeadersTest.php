@@ -23,7 +23,7 @@ class HeadersTest extends TestCase
     public function testAddMailboxListHeaderDelegatesToFactory()
     {
         $headers = new Headers();
-        $headers->addMailboxListHeader('From', ['person@domain']);
+        $headers->addMailboxListHeader('From', ['resident@domain']);
         $this->assertNotNull($headers->get('From'));
     }
 
@@ -72,7 +72,7 @@ class HeadersTest extends TestCase
     public function testAddedMailboxListHeaderIsSeenByHas()
     {
         $headers = new Headers();
-        $headers->addMailboxListHeader('From', ['person@domain']);
+        $headers->addMailboxListHeader('From', ['resident@domain']);
         $this->assertTrue($headers->has('From'));
     }
 
@@ -157,11 +157,11 @@ class HeadersTest extends TestCase
     {
         $header0 = new IdentificationHeader('Message-ID', 'some@id');
         $header1 = new UnstructuredHeader('Subject', 'thing');
-        $header2 = new MailboxListHeader('To', [new Address('person@example.org')]);
+        $header2 = new MailboxListHeader('To', [new Address('resident@example.org')]);
         $headers = new Headers();
         $headers->addIdHeader('Message-ID', 'some@id');
         $headers->addTextHeader('Subject', 'thing');
-        $headers->addMailboxListHeader('To', [new Address('person@example.org')]);
+        $headers->addMailboxListHeader('To', [new Address('resident@example.org')]);
         $this->assertEquals(['message-id' => $header0, 'subject' => $header1, 'to' => $header2], iterator_to_array($headers->getAll()));
     }
 

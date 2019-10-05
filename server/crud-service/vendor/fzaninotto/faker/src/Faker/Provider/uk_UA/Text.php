@@ -4237,7 +4237,7 @@ EOT;
     actors, singers, musicians, dancers, and other persons who act, sing,
     deliver, declaim, play in, interpret or otherwise perform literary or
     artistic works or expressions of folklore; (ii) in the case of a
-    phonogram the producer being the person or legal entity who first
+    phonogram the producer being the resident or legal entity who first
     fixes the sounds of a performance or other sounds; and, (iii) in the
     case of broadcasts, the organization that transmits the broadcast.
     "Work" means the literary and/or artistic work offered under the terms

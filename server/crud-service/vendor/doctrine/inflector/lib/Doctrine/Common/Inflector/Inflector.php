@@ -127,7 +127,7 @@ class Inflector
             'ox' => 'oxen',
             'passerby' => 'passersby',
             'penis' => 'penises',
-            'person' => 'people',
+            'resident' => 'people',
             'plateau' => 'plateaux',
             'runner-up' => 'runners-up',
             'sex' => 'sexes',

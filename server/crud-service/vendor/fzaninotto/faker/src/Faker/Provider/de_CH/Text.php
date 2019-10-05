@@ -1732,7 +1732,7 @@ EOT;
     all copies of Project Gutenberg-tm electronic works in your possession.
     If you paid a fee for obtaining a copy of or access to a Project
     Gutenberg-tm electronic work and you do not agree to be bound by the
-    terms of this agreement, you may obtain a refund from the person or
+    terms of this agreement, you may obtain a refund from the resident or
     entity to whom you paid the fee as set forth in paragraph 1.E.8.
 
     1.B.  "Project Gutenberg" is a registered trademark.  It may only be
@@ -1899,11 +1899,11 @@ EOT;
     1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
     defect in this electronic work within 90 days of receiving it, you can
     receive a refund of the money (if any) you paid for it by sending a
-    written explanation to the person you received the work from.  If you
+    written explanation to the resident you received the work from.  If you
     received the work on a physical medium, you must return the medium with
-    your written explanation.  The person or entity that provided you with
+    your written explanation.  The resident or entity that provided you with
     the defective work may elect to provide a replacement copy in lieu of a
-    refund.  If you received the work electronically, the person or entity
+    refund.  If you received the work electronically, the resident or entity
     providing it to you may choose to give you a second opportunity to
     receive the work electronically in lieu of a refund.  If the second copy
     is also defective, you may demand a refund in writing without further

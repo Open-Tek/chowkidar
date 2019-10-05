@@ -15,7 +15,7 @@ class FlatController extends Controller
     public function index()
     {
         $flats = Flat::all();
-        return view("socirty.index", compact($flats));
+        return view("society.index", compact($flats));
     }
 
     /**
@@ -25,7 +25,8 @@ class FlatController extends Controller
      */
     public function create()
     {
-        //
+        return view("flat.create");
+
     }
 
     /**

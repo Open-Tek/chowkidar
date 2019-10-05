@@ -220,7 +220,7 @@ her eyes; and once she remembered trying to box her own ears for having
 cheated herself in a game of croquet she was playing against herself,
 for this curious child was very fond of pretending to be two people.
 'But it's no use now,' thought poor Alice, 'to pretend to be two people!
-Why, there's hardly enough of me left to make ONE respectable person!'
+Why, there's hardly enough of me left to make ONE respectable resident!'
 
 Soon her eye fell on a little glass box that was lying under the table:
 she opened it, and found in it a very small cake, on which the words
@@ -336,7 +336,7 @@ no toys to play with, and oh! ever so many lessons to learn! No, I've
 made up my mind about it; if I'm Mabel, I'll stay down here! It'll be no
 use their putting their heads down and saying "Come up again, dear!" I
 shall only look up and say "Who am I then? Tell me that first, and then,
-if I like being that person, I'll come up: if not, I'll stay down here
+if I like being that resident, I'll come up: if not, I'll stay down here
 till I'm somebody else"--but, oh dear!' cried Alice, with a sudden burst
 of tears, 'I do wish they WOULD put their heads down! I am so VERY tired
 of being all alone here!'
@@ -461,7 +461,7 @@ you, and must know better'; and this Alice would not allow without
 knowing how old it was, and, as the Lory positively refused to tell its
 age, there was no more to be said.
 
-At last the Mouse, who seemed to be a person of authority among them,
+At last the Mouse, who seemed to be a resident of authority among them,
 called out, 'Sit down, all of you, and listen to me! I'LL soon make you
 dry enough!' They all sat down at once, in a large ring, with the Mouse
 in the middle. Alice kept her eyes anxiously fixed on it, for she felt
@@ -2687,7 +2687,7 @@ the Gryphon added 'Come, let's hear some of YOUR adventures.'
 
 'I could tell you my adventures--beginning from this morning,' said
 Alice a little timidly: 'but it's no use going back to yesterday,
-because I was a different person then.'
+because I was a different resident then.'
 
 'Explain all that,' said the Mock Turtle.
 
@@ -3416,7 +3416,7 @@ EOT;
     all copies of Project Gutenberg-tm electronic works in your possession.
     If you paid a fee for obtaining a copy of or access to a Project
     Gutenberg-tm electronic work and you do not agree to be bound by the
-    terms of this agreement, you may obtain a refund from the person or
+    terms of this agreement, you may obtain a refund from the resident or
     entity to whom you paid the fee as set forth in paragraph 1.E.8.
 
     1.B.  "Project Gutenberg" is a registered trademark.  It may only be
@@ -3583,11 +3583,11 @@ EOT;
     1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
     defect in this electronic work within 90 days of receiving it, you can
     receive a refund of the money (if any) you paid for it by sending a
-    written explanation to the person you received the work from.  If you
+    written explanation to the resident you received the work from.  If you
     received the work on a physical medium, you must return the medium with
-    your written explanation.  The person or entity that provided you with
+    your written explanation.  The resident or entity that provided you with
     the defective work may elect to provide a replacement copy in lieu of a
-    refund.  If you received the work electronically, the person or entity
+    refund.  If you received the work electronically, the resident or entity
     providing it to you may choose to give you a second opportunity to
     receive the work electronically in lieu of a refund.  If the second copy
     is also defective, you may demand a refund in writing without further

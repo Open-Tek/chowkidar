@@ -30,7 +30,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/building/all', 'BuildingController@all')->name('building.all');
     Route::resource('/building', 'BuildingController');
 
-    Route::get('/dashboard', function () {
-        return view('layouts.base');
-    });
+    Route::resource('/floor', 'FloorController');
+    Route::resource('/flat','FlatController');
+    Route::resource('/resident','ResidentController');
 });

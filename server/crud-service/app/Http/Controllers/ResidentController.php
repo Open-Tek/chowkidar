@@ -14,7 +14,8 @@ class ResidentController extends Controller
      */
     public function index()
     {
-        //
+
+        return view("person.index");
     }
 
     /**
@@ -25,6 +26,8 @@ class ResidentController extends Controller
     public function create()
     {
         //
+        
+        return view("person.create");
     }
 
     /**

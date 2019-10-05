@@ -23,7 +23,7 @@ $creationDate = date('l, d<\s\up>S</\s\up> F Y', $creationDatestamp);
 $creationTime = date('g:i A', $creationDatestamp);
 $helper->log('<b>Created On: </b>' . $creationDate . ' at ' . $creationTime);
 
-// Read the name of the last person to modify this workbook
+// Read the name of the last resident to modify this workbook
 $modifiedBy = $spreadsheet->getProperties()->getLastModifiedBy();
 $helper->log('<b>Last Modified By: </b>' . $modifiedBy);
 

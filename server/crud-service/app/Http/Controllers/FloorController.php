@@ -14,7 +14,7 @@ class FloorController extends Controller
      */
     public function index()
     {
-        //
+        return view("floor.index");
     }
 
     /**
@@ -24,7 +24,7 @@ class FloorController extends Controller
      */
     public function create()
     {
-        //
+        return view("floor.create");
     }
 
     /**

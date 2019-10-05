@@ -116,6 +116,133 @@
                     </div>
                 </li>
                 <!-- .BUILDING PILLS -->
+                <!-- .Floor PILLS -->
+                <li class="kt-menu__item ht-menu__item--submenu {{Request::is('floor*') ? 'kt-menu__item--active kt-menu__item--open' : ''}}" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+                    <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                        <i class="kt-menu__link-icon la la-group"></i>
+                        <span class="kt-menu__link-text">Floor</span>
+                        <i class="kt-menu__ver-arrow la la-angle-right"></i>
+                    </a>
+                    <div class="kt-menu__submenu">
+                        <span class="kt-menu__arrow"></span>
+                        <ul class="kt-menu__subnav">
+                            <!-- PARENT ITEM -->
+                            <li class="kt-menu__item kt-menu__item--parent" aria-haspopup="true">
+                                <span class="kt-menu__link">
+                                    <span class="kt-menu__link-text">Flat</span>
+                                </span>
+                            </li>
+
+                            <!-- ADD Floor PILL -->
+                            <li class="kt-menu__item  {{ Request::is('floor/create') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/floor/create" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Add Floor</span>
+                                </a>
+                            </li>
+                            <!-- .ADD BUILDING PILL -->
+
+                            <!-- MANAGE BUILDING PILL -->
+                            <li class="kt-menu__item  {{ Request::is('floor') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/floor" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Manage Floor</span>
+                                </a>
+                            </li>
+                            <!-- .MANAGE Floor PILL -->
+                        </ul>
+                    </div>
+                </li>
+                <!-- .Floor PILLS -->
+                <!-- .Flat PILLS-->
+                <li class="kt-menu__item ht-menu__item--submenu {{Request::is('flat*') ? 'kt-menu__item--active kt-menu__item--open' : ''}}" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+                    <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                        <i class="kt-menu__link-icon la la-group"></i>
+                        <span class="kt-menu__link-text">Flat</span>
+                        <i class="kt-menu__ver-arrow la la-angle-right"></i>
+                    </a>
+                    <div class="kt-menu__submenu">
+                        <span class="kt-menu__arrow"></span>
+                        <ul class="kt-menu__subnav">
+                            <!-- PARENT ITEM -->
+                            <li class="kt-menu__item kt-menu__item--parent" aria-haspopup="true">
+                                <span class="kt-menu__link">
+                                    <span class="kt-menu__link-text">Flat</span>
+                                </span>
+                            </li>
+
+                            <!-- ADD BUILDING PILL -->
+                            <li class="kt-menu__item  {{ Request::is('flat/create') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/flat/create" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Add Flat</span>
+                                </a>
+                            </li>
+                            <!-- .ADD Flat PILL -->
+
+                            <!-- MANAGE Flat PILL -->
+                            <li class="kt-menu__item  {{ Request::is('flat') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/building" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Manage Flat</span>
+                                </a>
+                            </li>
+                            <!-- .MANAGE BUILDING PILL -->
+                        </ul>
+                    </div>
+                </li>
+                <!--.Flat Pills-->
+                <!-- .Person Pills-->
+                <li class="kt-menu__item ht-menu__item--submenu {{Request::is('person*') ? 'kt-menu__item--active kt-menu__item--open' : ''}}" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+                    <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                        <i class="kt-menu__link-icon la la-group"></i>
+                        <span class="kt-menu__link-text">Persons</span>
+                        <i class="kt-menu__ver-arrow la la-angle-right"></i>
+                    </a>
+                    <div class="kt-menu__submenu">
+                        <span class="kt-menu__arrow"></span>
+                        <ul class="kt-menu__subnav">
+                            <!-- PARENT ITEM -->
+                            <li class="kt-menu__item kt-menu__item--parent" aria-haspopup="true">
+                                <span class="kt-menu__link">
+                                    <span class="kt-menu__link-text">Person</span>
+                                </span>
+                            </li>
+
+                            <!-- ADD BUILDING PILL -->
+                            <li class="kt-menu__item  {{ Request::is('resident') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/person/create" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Add Person</span>
+                                </a>
+                            </li>
+                            <!-- .ADD Person PILL -->
+
+                            <!-- MANAGE Person PILL -->
+                            <li class="kt-menu__item  {{ Request::is('person') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/person" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Manage Person</span>
+                                </a>
+                            </li>
+                            <!-- .MANAGE Person PILL -->
+                        </ul>
+                    </div>
+                </li>
+                <!--.Perosn Pills-->
+
 
 
             </ul>
