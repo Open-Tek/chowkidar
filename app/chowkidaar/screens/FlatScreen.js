@@ -25,6 +25,8 @@ export default function FlatScreen() {
             />
             <ScrollView style={{flex:1}}>
 
+                <CardComponent text={"Flat Number"} number={"Flat Number"}/>
+                <CardComponent text={"Flat Number"} number={"Flat Number"}/>
             </ScrollView>
         </View>
     );
