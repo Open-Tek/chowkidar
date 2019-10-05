@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Building;
 use App\Floor;
 use App\Flat;
 use App\Http\Controllers\Controller;
@@ -53,6 +54,35 @@ class FlatRestController extends Controller
         // Otherwise returning 500 to the user coz some issue occurred
         return response()->json([
             "message" => "Some internal server error occurred"
+        ], 500);
+    }
+
+
+    /**
+     * Fetches all the flats for the given buildings
+     *
+     * Throws a 404 error if no such building is found.
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function allByBuilding($id)
+    {
+        // Checking if any such building exists or not.
+        Building::findOrFail($id);
+
+        // Fetching all the flats with the given building id.
+        $flats = Flat::join("floors", "floors.id", "=", "flats.floor_id")
+            ->where("floors.building_id", $id)
+            ->get();
+
+        // Verifying whether records are fetched or not
+        if($flats) {
+            return response()->json($flats,200);
+        }
+
+        // Otherwise returning 500 to the user coz some issue occurred
+        return response()->json([
+            "message" => 'Some internal server error occurred'
         ], 500);
     }
 }
