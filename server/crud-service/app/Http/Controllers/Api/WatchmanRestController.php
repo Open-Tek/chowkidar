@@ -9,9 +9,21 @@ use App\Watchman;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+/**
+ * Class WatchmanRestController
+ * @package App\Http\Controllers\Api
+ * Manages all the operations for watchman that will be used by the mobile device.
+ */
 class WatchmanRestController extends Controller
 {
 
+    /**
+     * Fetches all the flats for the given floors
+     *
+     * Throws a 404 error if no such floor is found.
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function all()
     {
         // Fecthing all the watchmen from the database
@@ -21,6 +33,13 @@ class WatchmanRestController extends Controller
         return response()->json($floors, 200);
     }
 
+    /**
+     * Fetches all the watchmen for the given society
+     *
+     * Throws a 404 error if no such society is found.
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function allBySociety($id)
     {
         // Checking if any such building exists or not.
