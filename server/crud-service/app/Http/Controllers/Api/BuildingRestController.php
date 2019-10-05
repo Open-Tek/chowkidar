@@ -46,7 +46,7 @@ class BuildingRestController extends Controller
 
         // Verifying whether records are fetched or not
         if($buildings) {
-
+            return response()->json($buildings, 200);
         }
 
         // Otherwise returning 500 to the user coz some issue occurred
