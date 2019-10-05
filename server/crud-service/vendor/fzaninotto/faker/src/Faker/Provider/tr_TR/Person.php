@@ -7,7 +7,7 @@ use Faker\Calculator\TCNo;
 class Person extends \Faker\Provider\Person
 {
     /**
-     * @var array Turkish person name formats.
+     * @var array Turkish resident name formats.
      */
     protected static $maleNameFormats = array(
         '{{firstNameMale}} {{lastName}}',

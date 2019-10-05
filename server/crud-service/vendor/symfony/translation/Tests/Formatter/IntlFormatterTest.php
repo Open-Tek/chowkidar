@@ -45,17 +45,17 @@ class IntlFormatterTest extends \PHPUnit\Framework\TestCase
   female {{num_guests, plural, offset:1
       =0 {{host} does not give a party.}
       =1 {{host} invites {guest} to her party.}
-      =2 {{host} invites {guest} and one other person to her party.}
+      =2 {{host} invites {guest} and one other resident to her party.}
      other {{host} invites {guest} as one of the # people invited to her party.}}}
   male   {{num_guests, plural, offset:1
       =0 {{host} does not give a party.}
       =1 {{host} invites {guest} to his party.}
-      =2 {{host} invites {guest} and one other person to his party.}
+      =2 {{host} invites {guest} and one other resident to his party.}
      other {{host} invites {guest} as one of the # people invited to his party.}}}
   other {{num_guests, plural, offset:1
       =0 {{host} does not give a party.}
       =1 {{host} invites {guest} to their party.}
-      =2 {{host} invites {guest} and one other person to their party.}
+      =2 {{host} invites {guest} and one other resident to their party.}
      other {{host} invites {guest} as one of the # people invited to their party.}}}}
 _MSG_;
 
