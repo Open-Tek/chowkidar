@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a168332-0aac-4661-a3c6-253918509f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/crud-service/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/StudentFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/SubjectFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TeacherFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestChaptersFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestParticipantFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestQuestionsFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestResponseDetailFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestResponseFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/factories/TestSubjectsFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/crud-service/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_142615_create_students_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_143448_create_teachers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_143548_create_subjects_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_143641_create_chapters_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_143735_create_questions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_143845_create_options_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_143929_create_option_marks_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_144024_create_correct_options_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_144144_create_tests_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_144338_create_test_chapters_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_144455_create_test_subjects_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_144546_create_test_questions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_144802_create_test_participants_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_145039_create_test_responses_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_145201_create_test_response_details_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_145315_create_configs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_150930_create_parents_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_151012_create_parent_students_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_151306_create_batches_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_151348_create_enrollments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_04_23_151432_create_enrollment_subjects_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_06_21_120134_create_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/migrations/2019_09_15_151040_create_difficulties_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/seeds/SubjectTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/crud-service/database/seeds/TeacherTableSeeder.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Rm2yap79cusCDeGPRE0L732tzW" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a168332-0aac-4661-a3c6-253918509f86" name="Default Changelist" comment="" />
+      <created>1570258205204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570258205204</updated>
+      <workItem from="1570258206587" duration="1963000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
