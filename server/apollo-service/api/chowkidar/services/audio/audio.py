@@ -4,7 +4,7 @@ import cv2
 
 
 # Function to extract frames
-def FrameCapture(path):
+def frameCapture(path):
     # Path to video file
     vidObj = cv2.VideoCapture(path)
     # Used as counter variable
