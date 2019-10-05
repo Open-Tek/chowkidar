@@ -42,7 +42,7 @@ class FlatRestController extends Controller
         Floor::findOrFail($id);
 
         // Fetching all the flats with the given society id
-        $flats = Flat::where("society_id", $id)
+        $flats = Flat::where("floor_id", $id)
             ->get();
 
         // Verifying whether records are fetched or not

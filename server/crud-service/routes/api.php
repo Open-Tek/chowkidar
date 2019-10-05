@@ -21,5 +21,21 @@ Route::get('/building/society/{id}/all', "Api\BuildingRestController@allBySociet
 
 // START of Floor Endpoints
 Route::get('/floor/all', "Api\FloorRestController@all")->name('building.all');
-Route::get('/floor/builing/{id}/all', "Api\FloorRestController@allBySociety")->name("floor.building.all");
+Route::get('/floor/building/{id}/all', "Api\FloorRestController@allBySociety")->name("floor.building.all");
 // END of Floor Endpoints
+
+// START of Flat Endpoints
+Route::get('/flat/all', "Api\FlatRestController@all")->name('building.all');
+Route::get('/flat/floor/{id}/all', "Api\FlatRestController@allByFloor")->name("flat.floor.all");
+// END of Flat Endpoints
+
+// START of Watchman Endpoints
+Route::get('/watchman/all', "Api\WatchmenRestController@all")->name('watchmen.all');
+Route::get('/watchman/society/{id}/all', "Api\WatchmenRestController@allBySociety")->name("flat.society.all");
+// END of Watchman Endpoints
+
+
+// START of Resident Endpoints
+Route::get('/resident/all', "Api\ResidentRestController@all")->name('resident.all');
+Route::get('/resident/society/{id}/all', "Api\ResidentRestController@allBySociety")->name("resident.society.all");
+// END of Resident Endpoints
