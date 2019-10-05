@@ -8,6 +8,9 @@ API_KEY = 'b3b2ee5e3269ed504c89af0df37671d4'
 def recognize(image, gallery_name):
     global API_ID
     global API_KEY
+    f = open("api/public/test_data/temp2.txt", "a")
+    f.write(image)
+    f.close()
     values = """
       {
         "image": "%s",
@@ -20,7 +23,7 @@ def recognize(image, gallery_name):
         'app_key': API_KEY
     }
 
-    request = Request('https://api.kairos.com/recognize', data=values, headers=headers)
+    request = Request('https://api.kairos.com/recognize', data=values.encode("utf-8"), headers=headers)
 
     response_body = urlopen(request).read()
     return response_body

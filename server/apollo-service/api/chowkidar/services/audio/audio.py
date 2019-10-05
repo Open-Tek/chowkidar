@@ -3,9 +3,13 @@
 from base64 import b64encode
 
 import cv2
+import base64
 
 
 # Function to extract frames
+from api.chowkidar.services.image import read_image
+
+
 def frameCapture(path):
     # Path to video file
     vidObj = cv2.VideoCapture(path)
@@ -20,15 +24,17 @@ def frameCapture(path):
         success, image = vidObj.read()
         # Saves the frames with frame-count
         # from base64 import b64encode
-        base64String = b64encode(image).decode("utf-8")
-<<<<<<< Updated upstream
-        image_list.append("data:image/jpeg;base64, " + base64String.decode('utf-8'))
-=======
-        image_list.append(base64String)
->>>>>>> Stashed changes
+        if image is not None:
+            cv2.imwrite("api/public/temp.jpg", image)
+
+            base64String = read_image("api/public/temp.jpg")
+            # print(base64String[:3])
+            image_list.append(base64String)
+
         # return  image
         # cv2.imwrite("frames/frame%d.jpg" % count, image)
         count += 1
+
     return image_list
 
 

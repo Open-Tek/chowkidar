@@ -21,8 +21,15 @@ class DemoViewSet(viewsets.ViewSet):
         This view just starts 4 threads that stream 4 demo videos.
     """
     def index(self):
-        # images = frameCapture("api/public/test_data/test.mp4")
         # print(len(images))
-        image = read_image("api/public/test_data/image.jpg")
-        print(enroll(image, "harsh", "society"))
+        images = frameCapture("api/public/test_data/test.mp4")
+        images = images[::-1]
+        block = 0
+        print(len(images))
+        for image in images:
+            if block == 10:
+                block = 0
+                print(recognize(image, "society"))
+            block += 1
+        # image = read_image("api/public/test_data/image.jpg")
         return HttpResponse("Hello World")
