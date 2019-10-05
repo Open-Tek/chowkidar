@@ -38,7 +38,7 @@ class SocietyController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            "name" => "required|string|max:255|unique:society,name"
+            "name" => "required|string|max:255|unique:societies,name"
         ]);
 
         $society = Society::create($validatedData);

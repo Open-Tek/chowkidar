@@ -13,7 +13,7 @@ class CreateSocietiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('society', function (Blueprint $table) {
+        Schema::create('societies', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->softDeletes();

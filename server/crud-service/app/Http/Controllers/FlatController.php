@@ -14,7 +14,8 @@ class FlatController extends Controller
      */
     public function index()
     {
-        //
+        $flats = Flat::all();
+        return view("socirty.index", compact($flats));
     }
 
     /**

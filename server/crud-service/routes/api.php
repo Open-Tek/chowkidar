@@ -14,12 +14,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('auth/login/{phone}/',  'Api\AuthController@generateOtp')->where('phone', "[0-9]{10}");
-Route::post('auth/verify/{phone}/{otp}/', 'Api\AuthController@generateToken')->where('phone', "[0-9]{10}")->where('otp', '[0-9]{6}');
-Route::post('auth/refresh/{refreshToken}/', 'Api\AuthController@refresh');
+// START of Building Controller
+Route::get('/building/all', "Api\BuildingRestController@all")->name('building.all');
+Route::get('/building/society/{id}/all', "Api\BuildingRestController@allBySociety")->name("building.society.all");
+// END of Building Controller
+
+// START of Floor Endpoints
+Route::get('/floor/all', "Api\FloorRestController@all")->name('building.all');
+Route::get('/floor/building/{id}/all', "Api\FloorRestController@allBySociety")->name("floor.building.all");
+// END of Floor Endpoints
+
+// START of Flat Endpoints
+Route::get('/flat/all', "Api\FlatRestController@all")->name('building.all');
+Route::get('/flat/floor/{id}/all', "Api\FlatRestController@allByFloor")->name("flat.floor.all");
+// END of Flat Endpoints
+
+// START of Watchman Endpoints
+Route::get('/watchman/all', "Api\WatchmenRestController@all")->name('watchmen.all');
+Route::get('/watchman/society/{id}/all', "Api\WatchmenRestController@allBySociety")->name("flat.society.all");
+// END of Watchman Endpoints
 
 
-Route::get('/subject/{id}/chapter/all', 'Api\SubjectRestController@getAllChapters');
-Route::get("/subject/all/student/{student_id}", "Api\SubjectRestController@getAllByStudent");
-
-Route::post('/question', 'Api\QuestionRestController@store')->name('question.store');
+// START of Resident Endpoints
+Route::get('/resident/all', "Api\ResidentRestController@all")->name('resident.all');
+Route::get('/resident/society/{id}/all', "Api\ResidentRestController@allBySociety")->name("resident.society.all");
+// END of Resident Endpoints

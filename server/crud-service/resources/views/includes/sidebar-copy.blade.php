@@ -74,6 +74,48 @@
                 </li>
                 <!-- .BATCH PILLS -->
 
+                <!-- BUILDING PILLS -->
+                <li class="kt-menu__item ht-menu__item--submenu {{Request::is('building*') ? 'kt-menu__item--active kt-menu__item--open' : ''}}" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+                    <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                        <i class="kt-menu__link-icon la la-group"></i>
+                        <span class="kt-menu__link-text">Buildings</span>
+                        <i class="kt-menu__ver-arrow la la-angle-right"></i>
+                    </a>
+                    <div class="kt-menu__submenu">
+                        <span class="kt-menu__arrow"></span>
+                        <ul class="kt-menu__subnav">
+                            <!-- PARENT ITEM -->
+                            <li class="kt-menu__item kt-menu__item--parent" aria-haspopup="true">
+                                <span class="kt-menu__link">
+                                    <span class="kt-menu__link-text">Building</span>
+                                </span>
+                            </li>
+
+                            <!-- ADD BUILDING PILL -->
+                            <li class="kt-menu__item  {{ Request::is('building/create') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/building/create" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Add Building</span>
+                                </a>
+                            </li>
+                            <!-- .ADD BUILDING PILL -->
+
+                            <!-- MANAGE BUILDING PILL -->
+                            <li class="kt-menu__item  {{ Request::is('building') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+                                <a href="/building" class="kt-menu__link">
+                                    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot">
+                                        <span></span>
+                                    </i>
+                                    <span class="kt-menu__link-text">Manage Building</span>
+                                </a>
+                            </li>
+                            <!-- .MANAGE BUILDING PILL -->
+                        </ul>
+                    </div>
+                </li>
+                <!-- .BUILDING PILLS -->
 
 
             </ul>
