@@ -8,8 +8,20 @@ use App\Watchman;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+/**
+ * Class ResidentRestController
+ * @package App\Http\Controllers\Api
+ * Manages all the operations for residents that will be used by the mobile device.
+ */
 class ResidentRestController extends Controller
 {
+    /**
+     * Fetches all the residents for the given floors
+     *
+     * Throws a 404 error if no such resident is found.
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function all()
     {
         // Fecthing all the watchmen from the database
@@ -19,6 +31,13 @@ class ResidentRestController extends Controller
         return response()->json($residents, 200);
     }
 
+    /**
+     * Fetches all the residents for the given society
+     *
+     * Throws a 404 error if no such society is found.
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function allBySociety($id)
     {
         // Checking if any such building exists or not.
