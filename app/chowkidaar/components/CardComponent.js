@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
     },
     flatName:{
         fontWeight:'bold',
+        fontFamily:'proxima',
     },
     imgFlat:{
         width: responsiveWidth(20),
