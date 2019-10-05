@@ -20,4 +20,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', function () {
         return view('layouts.base');
     })->name('dashboard');
+
+    //Batch Routes
+    Route::get('/society/datatables', 'SocietyController@datatables')->name('society.datatables');
+    Route::get('/society/all', 'SocietyController@all')->name('society.all');
+    Route::resource('/society', 'SocietyController');
 });

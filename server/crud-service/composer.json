@@ -12,7 +12,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "yajra/laravel-datatables": "^1.0"
+        "yajra/laravel-datatables": "^1.0",
+        "yajra/laravel-datatables-oracle": "^9.0"
     },
     "require-dev": {
         "behat/behat": "^3.5",
