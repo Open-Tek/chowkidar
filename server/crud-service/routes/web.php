@@ -25,4 +25,12 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/society/datatables', 'SocietyController@datatables')->name('society.datatables');
     Route::get('/society/all', 'SocietyController@all')->name('society.all');
     Route::resource('/society', 'SocietyController');
+
+    Route::get('/building/datatables', 'BuildingController@datatables')->name('building.datatables');
+    Route::get('/building/all', 'BuildingController@all')->name('building.all');
+    Route::resource('/building', 'BuildingController');
+
+    Route::get('/dashboard', function () {
+        return view('layouts.base');
+    });
 });
