@@ -4,18 +4,47 @@
 
 namespace Composer\Autoload;
 
+<<<<<<< Updated upstream
 class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+=======
+class ComposerStaticInit456e3a879a5b2a425a1e4742befad5c7
+{
+    public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+>>>>>>> Stashed changes
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '0b47d6d4a00ca9112ba3953b49e7c9a4' => __DIR__ . '/..' . '/yajra/laravel-datatables-oracle/src/helper.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
+<<<<<<< Updated upstream
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
+=======
+        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        '9d8e013a5160a09477beb8e44f8ae97b' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/adjoint.php',
+        '6e78d1bdea6248d6aa117229efae50f2' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/antidiagonal.php',
+        '4623d87924d94f5412fe5afbf1cef31d' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/cofactors.php',
+        '901fd1f6950a637ca85f66b701a45e13' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/determinant.php',
+        '83057abc0e4acc99ba80154ee5d02a49' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/diagonal.php',
+        '07b7fd7a434451149b4fd477fca0ce06' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/identity.php',
+        'c8d43b340583e07ae89f2a3baef2cf89' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/inverse.php',
+        '499bb10ed7a3aee2ba4c09a31a85e8d1' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/minors.php',
+        '1cad2e6414d652e8b1c64e8967f6f37d' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/trace.php',
+        '95a7f134ac17161d07def442b3b737e8' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/transpose.php',
+        'b3a6bc628377118d4b4b8ba08d1eb949' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/add.php',
+        '5fef6d0e407f3f8887266dfa4a6c534c' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/directsum.php',
+        '684ba247e1385946e3babdaa054119de' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/subtract.php',
+        'aa53dcba601214d17ad405b7c291b7e8' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/multiply.php',
+        '75c79eb1b25749b05a47976f32b0d8a2' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/divideby.php',
+        '6ab8ad87a734f276a6bcd5a0fe1289be' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/divideinto.php',
+>>>>>>> Stashed changes
         'abede361264e2ae69ec1eee813a101af' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/abs.php',
         '21a5860fbef5be28db5ddfbc3cca67c4' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acos.php',
         '1546e3f9d127f2a9bb2d1b6c31c26ef1' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acosh.php',
@@ -58,6 +87,7 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         '883af48563631547925fa4c3b48ead07' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/multiply.php',
         'f190e3308e6ca23234a2875edc985c03' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/divideby.php',
         'ac9e33ce6841aa5bf5d16d465a2f03a7' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/divideinto.php',
+<<<<<<< Updated upstream
         '9d8e013a5160a09477beb8e44f8ae97b' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/adjoint.php',
         '6e78d1bdea6248d6aa117229efae50f2' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/antidiagonal.php',
         '4623d87924d94f5412fe5afbf1cef31d' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/cofactors.php',
@@ -80,6 +110,14 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+=======
+        'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
+        '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+>>>>>>> Stashed changes
         '0d8253363903f0ac7b0978dcde4e28a0' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/helpers.php',
     );
 
@@ -225,6 +263,7 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
+<<<<<<< Updated upstream
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
@@ -235,6 +274,18 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
             2 => __DIR__ . '/..' . '/yajra/laravel-datatables-fractal/src',
             3 => __DIR__ . '/..' . '/yajra/laravel-datatables-html/src',
             4 => __DIR__ . '/..' . '/yajra/laravel-datatables-oracle/src',
+=======
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'Yajra\\DataTables\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yajra/laravel-datatables-oracle/src',
+            1 => __DIR__ . '/..' . '/yajra/laravel-datatables-html/src',
+            2 => __DIR__ . '/..' . '/yajra/laravel-datatables-fractal/src',
+            3 => __DIR__ . '/..' . '/yajra/laravel-datatables-buttons/src',
+            4 => __DIR__ . '/..' . '/yajra/laravel-datatables-editor/src',
+>>>>>>> Stashed changes
         ),
         'XdgBaseDir\\' => 
         array (
@@ -586,18 +637,25 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
     );
 
     public static $classMap = array (
+<<<<<<< Updated upstream
         'App\\Building' => __DIR__ . '/../..' . '/app/Building.php',
+=======
+>>>>>>> Stashed changes
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Constants\\MessageConstants' => __DIR__ . '/../..' . '/app/Constants/MessageConstants.php',
         'App\\Constants\\QuestionTypes' => __DIR__ . '/../..' . '/app/Constants/QuestionTypes.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+<<<<<<< Updated upstream
         'App\\Flat' => __DIR__ . '/../..' . '/app/Flat.php',
         'App\\Floor' => __DIR__ . '/../..' . '/app/Floor.php',
+=======
+>>>>>>> Stashed changes
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< Updated upstream
         'App\\Http\\Controllers\\BuildingController' => __DIR__ . '/../..' . '/app/Http/Controllers/BuildingController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\FlatController' => __DIR__ . '/../..' . '/app/Http/Controllers/FlatController.php',
@@ -606,6 +664,8 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'App\\Http\\Controllers\\SecretaryController' => __DIR__ . '/../..' . '/app/Http/Controllers/SecretaryController.php',
         'App\\Http\\Controllers\\SocietyController' => __DIR__ . '/../..' . '/app/Http/Controllers/SocietyController.php',
         'App\\Http\\Controllers\\WatchmanController' => __DIR__ . '/../..' . '/app/Http/Controllers/WatchmanController.php',
+=======
+>>>>>>> Stashed changes
         'App\\Http\\Helper\\Utils' => __DIR__ . '/../..' . '/app/Http/Helper/Utils.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -621,6 +681,7 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+<<<<<<< Updated upstream
         'App\\Resident' => __DIR__ . '/../..' . '/app/Resident.php',
         'App\\Secretary' => __DIR__ . '/../..' . '/app/Secretary.php',
         'App\\Services\\MessagingService' => __DIR__ . '/../..' . '/app/Services/MessagingService.php',
@@ -629,6 +690,10 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'App\\Token' => __DIR__ . '/../..' . '/app/Token.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'App\\Watchman' => __DIR__ . '/../..' . '/app/Watchman.php',
+=======
+        'App\\Token' => __DIR__ . '/../..' . '/app/Token.php',
+        'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+>>>>>>> Stashed changes
         'Behat\\Behat\\ApplicationFactory' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/ApplicationFactory.php',
         'Behat\\Behat\\Context\\Annotation\\AnnotationReader' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Context/Annotation/AnnotationReader.php',
         'Behat\\Behat\\Context\\Argument\\ArgumentResolver' => __DIR__ . '/..' . '/behat/behat/src/Behat/Behat/Context/Argument/ArgumentResolver.php',
@@ -4823,6 +4888,10 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'SebastianBergmann\\Timer\\RuntimeException' => __DIR__ . '/..' . '/phpunit/php-timer/src/RuntimeException.php',
         'SebastianBergmann\\Timer\\Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+<<<<<<< Updated upstream
+=======
+        'SubjectTableSeeder' => __DIR__ . '/../..' . '/database/seeds/SubjectTableSeeder.php',
+>>>>>>> Stashed changes
         'Symfony\\Component\\BrowserKit\\AbstractBrowser' => __DIR__ . '/..' . '/symfony/browser-kit/AbstractBrowser.php',
         'Symfony\\Component\\BrowserKit\\Client' => __DIR__ . '/..' . '/symfony/browser-kit/Client.php',
         'Symfony\\Component\\BrowserKit\\Cookie' => __DIR__ . '/..' . '/symfony/browser-kit/Cookie.php',
@@ -5788,6 +5857,10 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
         'Symfony\\Polyfill\\Php73\\Php73' => __DIR__ . '/..' . '/symfony/polyfill-php73/Php73.php',
+<<<<<<< Updated upstream
+=======
+        'TeacherTableSeeder' => __DIR__ . '/../..' . '/database/seeds/TeacherTableSeeder.php',
+>>>>>>> Stashed changes
         'Tests\\Browser\\ExampleTest' => __DIR__ . '/../..' . '/tests/Browser/ExampleTest.php',
         'Tests\\Browser\\Pages\\HomePage' => __DIR__ . '/../..' . '/tests/Browser/Pages/HomePage.php',
         'Tests\\Browser\\Pages\\Page' => __DIR__ . '/../..' . '/tests/Browser/Pages/Page.php',
@@ -5821,7 +5894,10 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+<<<<<<< Updated upstream
         'UserTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserTableSeeder.php',
+=======
+>>>>>>> Stashed changes
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
@@ -5993,10 +6069,17 @@ class ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+<<<<<<< Updated upstream
             $loader->prefixLengthsPsr4 = ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit4c37a84b46b438445f0d4b9c2e7ea4f9::$classMap;
+=======
+            $loader->prefixLengthsPsr4 = ComposerStaticInit456e3a879a5b2a425a1e4742befad5c7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit456e3a879a5b2a425a1e4742befad5c7::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit456e3a879a5b2a425a1e4742befad5c7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit456e3a879a5b2a425a1e4742befad5c7::$classMap;
+>>>>>>> Stashed changes
 
         }, null, ClassLoader::class);
     }

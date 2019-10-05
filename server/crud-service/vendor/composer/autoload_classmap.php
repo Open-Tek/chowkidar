@@ -6,18 +6,25 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+<<<<<<< Updated upstream
     'App\\Building' => $baseDir . '/app/Building.php',
+=======
+>>>>>>> Stashed changes
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Constants\\MessageConstants' => $baseDir . '/app/Constants/MessageConstants.php',
     'App\\Constants\\QuestionTypes' => $baseDir . '/app/Constants/QuestionTypes.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+<<<<<<< Updated upstream
     'App\\Flat' => $baseDir . '/app/Flat.php',
     'App\\Floor' => $baseDir . '/app/Floor.php',
+=======
+>>>>>>> Stashed changes
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Auth\\VerificationController' => $baseDir . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< Updated upstream
     'App\\Http\\Controllers\\BuildingController' => $baseDir . '/app/Http/Controllers/BuildingController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\FlatController' => $baseDir . '/app/Http/Controllers/FlatController.php',
@@ -26,6 +33,8 @@ return array(
     'App\\Http\\Controllers\\SecretaryController' => $baseDir . '/app/Http/Controllers/SecretaryController.php',
     'App\\Http\\Controllers\\SocietyController' => $baseDir . '/app/Http/Controllers/SocietyController.php',
     'App\\Http\\Controllers\\WatchmanController' => $baseDir . '/app/Http/Controllers/WatchmanController.php',
+=======
+>>>>>>> Stashed changes
     'App\\Http\\Helper\\Utils' => $baseDir . '/app/Http/Helper/Utils.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -41,6 +50,7 @@ return array(
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
+<<<<<<< Updated upstream
     'App\\Resident' => $baseDir . '/app/Resident.php',
     'App\\Secretary' => $baseDir . '/app/Secretary.php',
     'App\\Services\\MessagingService' => $baseDir . '/app/Services/MessagingService.php',
@@ -49,6 +59,10 @@ return array(
     'App\\Token' => $baseDir . '/app/Token.php',
     'App\\User' => $baseDir . '/app/User.php',
     'App\\Watchman' => $baseDir . '/app/Watchman.php',
+=======
+    'App\\Token' => $baseDir . '/app/Token.php',
+    'App\\User' => $baseDir . '/app/User.php',
+>>>>>>> Stashed changes
     'Behat\\Behat\\ApplicationFactory' => $vendorDir . '/behat/behat/src/Behat/Behat/ApplicationFactory.php',
     'Behat\\Behat\\Context\\Annotation\\AnnotationReader' => $vendorDir . '/behat/behat/src/Behat/Behat/Context/Annotation/AnnotationReader.php',
     'Behat\\Behat\\Context\\Argument\\ArgumentResolver' => $vendorDir . '/behat/behat/src/Behat/Behat/Context/Argument/ArgumentResolver.php',
@@ -4243,6 +4257,10 @@ return array(
     'SebastianBergmann\\Timer\\RuntimeException' => $vendorDir . '/phpunit/php-timer/src/RuntimeException.php',
     'SebastianBergmann\\Timer\\Timer' => $vendorDir . '/phpunit/php-timer/src/Timer.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
+<<<<<<< Updated upstream
+=======
+    'SubjectTableSeeder' => $baseDir . '/database/seeds/SubjectTableSeeder.php',
+>>>>>>> Stashed changes
     'Symfony\\Component\\BrowserKit\\AbstractBrowser' => $vendorDir . '/symfony/browser-kit/AbstractBrowser.php',
     'Symfony\\Component\\BrowserKit\\Client' => $vendorDir . '/symfony/browser-kit/Client.php',
     'Symfony\\Component\\BrowserKit\\Cookie' => $vendorDir . '/symfony/browser-kit/Cookie.php',
@@ -5208,6 +5226,10 @@ return array(
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Symfony\\Polyfill\\Php72\\Php72' => $vendorDir . '/symfony/polyfill-php72/Php72.php',
     'Symfony\\Polyfill\\Php73\\Php73' => $vendorDir . '/symfony/polyfill-php73/Php73.php',
+<<<<<<< Updated upstream
+=======
+    'TeacherTableSeeder' => $baseDir . '/database/seeds/TeacherTableSeeder.php',
+>>>>>>> Stashed changes
     'Tests\\Browser\\ExampleTest' => $baseDir . '/tests/Browser/ExampleTest.php',
     'Tests\\Browser\\Pages\\HomePage' => $baseDir . '/tests/Browser/Pages/HomePage.php',
     'Tests\\Browser\\Pages\\Page' => $baseDir . '/tests/Browser/Pages/Page.php',
@@ -5241,7 +5263,10 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+<<<<<<< Updated upstream
     'UserTableSeeder' => $baseDir . '/database/seeds/UserTableSeeder.php',
+=======
+>>>>>>> Stashed changes
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',

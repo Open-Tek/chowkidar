@@ -21,7 +21,11 @@ def frameCapture(path):
         # Saves the frames with frame-count
         # from base64 import b64encode
         base64String = b64encode(image).decode("utf-8")
+<<<<<<< Updated upstream
         image_list.append("data:image/jpeg;base64, " + base64String.decode('utf-8'))
+=======
+        image_list.append(base64String)
+>>>>>>> Stashed changes
         # return  image
         # cv2.imwrite("frames/frame%d.jpg" % count, image)
         count += 1
