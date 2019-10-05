@@ -18,3 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/building/all', "Api\BuildingRestController@all")->name('building.all');
 Route::get('/building/society/{id}/all', "Api\BuildingRestController@allBySociety")->name("building.society.all");
 // END of Building Controller
+
+// START of Floor Endpoints
+Route::get('/floor/all', "Api\FloorRestController@all")->name('building.all');
+Route::get('/floor/builing/{id}/all', "Api\FloorRestController@allBySociety")->name("floor.building.all");
+// END of Floor Endpoints
