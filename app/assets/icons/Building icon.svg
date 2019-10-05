@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18">
+  <g id="Building_icon" data-name="Building icon" transform="translate(-43 -143)">
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(43 143)" fill="none" stroke="#06d6a0" stroke-width="1">
+      <rect width="12" height="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="11" height="17" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(43 143)" fill="none" stroke="#06d6a0" stroke-width="1">
+      <rect width="7" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="6" height="6" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(43 149)" fill="none" stroke="#06d6a0" stroke-width="1">
+      <rect width="12" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="11" height="6" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(43 149)" fill="none" stroke="#06d6a0" stroke-width="1">
+      <rect width="9" height="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="8" height="6" fill="none"/>
+    </g>
+  </g>
+</svg>
