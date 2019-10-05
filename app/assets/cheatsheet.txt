@@ -1,0 +1,13 @@
+Color:
+Green: #06D6A0
+Red : #EF476F
+Dark blue(Foreground) : #073B4C
+
+Font Name:
+Proxima Nova
+
+Font Stylings:
+Button Caption: 18px Medium
+Input placeholders: 18px Regular
+List Card Main Heading: 18px Semibold
+List Card sub heading: 14px regular
