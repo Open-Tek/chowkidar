@@ -14,12 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('auth/login/{phone}/',  'Api\AuthController@generateOtp')->where('phone', "[0-9]{10}");
-Route::post('auth/verify/{phone}/{otp}/', 'Api\AuthController@generateToken')->where('phone', "[0-9]{10}")->where('otp', '[0-9]{6}');
-Route::post('auth/refresh/{refreshToken}/', 'Api\AuthController@refresh');
-
-
-Route::get('/subject/{id}/chapter/all', 'Api\SubjectRestController@getAllChapters');
-Route::get("/subject/all/student/{student_id}", "Api\SubjectRestController@getAllByStudent");
-
-Route::post('/question', 'Api\QuestionRestController@store')->name('question.store');
+// START of Building Controller
+Route::get('/building/all', "Api\BuildingRestController@all")->name('building.all');
+Route::get('/building/society/{id}/all', "Api\BuildingRestController@allBySociety")->name("building.society.all");
+// END of Building Controller
