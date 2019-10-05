@@ -21,5 +21,10 @@ Route::get('/building/society/{id}/all', "Api\BuildingRestController@allBySociet
 
 // START of Floor Endpoints
 Route::get('/floor/all', "Api\FloorRestController@all")->name('building.all');
-Route::get('/floor/builing/{id}/all', "Api\FloorRestController@allBySociety")->name("floor.building.all");
+Route::get('/floor/building/{id}/all', "Api\FloorRestController@allBySociety")->name("floor.building.all");
 // END of Floor Endpoints
+
+// START of Flat Endpoints
+Route::get('/flat/all', "Api\FlatRestController@all")->name('building.all');
+Route::get('/flat/floor/{id}/all', "Api\FlatRestController@allByFloor")->name("flat.floor.all");
+// END of Flat Endpoints
