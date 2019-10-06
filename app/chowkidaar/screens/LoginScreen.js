@@ -15,6 +15,8 @@ import HeaderComponent from '../components/HeaderComponent';
 import {responsiveFontSize, responsiveHeight, responsiveWidth} from "react-native-responsive-dimensions";
 import { Container, Header, Content, Input, Item ,Button} from 'native-base';
 import Colors from "../constants/Colors";
+import {KeyboardAvoidingView} from "react-native-web";
+import {KeyboardAwareScrollView} from "react-native-keyboard-aware-scrollview";
 export default class LoginScreen extends React.Component{
     constructor(props) {
         super(props);
@@ -26,25 +28,27 @@ export default class LoginScreen extends React.Component{
     render() {
 
         return (
-            <View style={styles.container}>
-                <Image
-                    style={{width: responsiveWidth(60), height:responsiveHeight(40), marginBottom: responsiveHeight(5)}}
-                    source={require('../assets/images/chowkidaar-logo.png')}
-                    resizeMode="contain"
-                />
-                <Text style={{marginBottom:responsiveHeight(2), color: Colors.dark_blue, fontSize: 22,  alignSelf: "stretch", textAlign: "center", fontFamily: "proxima-bold"}}>Welcome, </Text>
-                <Item regular  style={{marginBottom:responsiveHeight(2) }}>
-                    <Input placeholder='Username' onChangeText={(text) => this.setState({username: text})} value={this.state.username}/>
-                </Item>
-                <Item regular  style={{marginBottom:responsiveHeight(2) }}>
-                    <Input placeholder='Password' onChangeText={(text) => this.setState({password: text})} value={this.state.password}/>
-                </Item>
+           <KeyboardAwareScrollView>
+               <View style={styles.container}>
+                   <Image
+                       style={{width: responsiveWidth(60), height:responsiveHeight(40), marginBottom: responsiveHeight(5)}}
+                       source={require('../assets/images/chowkidaar-logo.png')}
+                       resizeMode="contain"
+                   />
+                   <Text style={{marginBottom:responsiveHeight(2), color: Colors.dark_blue, fontSize: 22,  alignSelf: "stretch", textAlign: "center", fontFamily: "proxima-bold"}}>Welcome, </Text>
+                   <Item regular  style={{marginBottom:responsiveHeight(2) }}>
+                       <Input placeholder='Username' onChangeText={(text) => this.setState({username: text})} value={this.state.username}/>
+                   </Item>
+                   <Item regular  style={{marginBottom:responsiveHeight(2) }}>
+                       <Input placeholder='Password' secureTextEntry={true} onChangeText={(text) => this.setState({password: text})} value={this.state.password}/>
+                   </Item>
 
-                <Button block style={{backgroundColor: Colors.green, color: '#fff', borderRadius: 5,
-                    width: '100%', textAlign: "center"}} onPress={() => this.onLogin()}>
-                    <Text style={{textAlign: "center", color: '#fff', fontSize: 18, fontWeight: "600", flex: 1}}>Login</Text>
-                </Button>
-            </View>
+                   <Button block style={{backgroundColor: Colors.green, color: '#fff', borderRadius: 5,
+                       width: '100%', textAlign: "center"}} onPress={() => this.onLogin()}>
+                       <Text style={{textAlign: "center", color: '#fff', fontSize: 18, fontWeight: "600", flex: 1}}>Login</Text>
+                   </Button>
+               </View>
+           </KeyboardAwareScrollView>
         );
     }
 

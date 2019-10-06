@@ -104,8 +104,8 @@ tabNavigator.path = '';
 
 const rootNavigator = createStackNavigator({
 
+    LoginStack,
     tabNavigator,
-    LoginStack
 }, {
     headerMode: 'none',
     navigationOptions: {
