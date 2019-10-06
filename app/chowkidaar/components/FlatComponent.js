@@ -4,7 +4,7 @@ import {Image , View,StyleSheet, TouchableOpacity} from 'react-native';
 import {MaterialIcons} from "@expo/vector-icons";
 import {responsiveWidth,responsiveHeight,responsiveFontSize} from "react-native-responsive-dimensions";
 import { Container, Header, Content, Card, CardItem, Body, Text ,Right,Icon} from 'native-base'
-export default class CardComponent extends React.Component{
+export default class FlatComponent extends React.Component{
     constructor(props){
         super(props);
     }
@@ -12,9 +12,13 @@ export default class CardComponent extends React.Component{
         return(
             <TouchableOpacity style={styles.shadow} onPress={() => this.props.onPress()}>
                 <View style={styles.buildingFlatContainer} >
-                    <Image
-                        style={styles.imgFlat}
-                        source={require('../assets/images/icons/building-icon.png')}/>
+                    { (this.props.status === 1) ?
+                        <Image
+                            style={styles.imgFlat}
+                            source={require('../assets/images/icons/home-icon-red.png')}/>
+                        : <Image
+                            style={styles.imgFlat}
+                            source={require('../assets/images/icons/home-icon.png')}/>}
                     <View style={styles.flatContainer}>
                         <Text style={styles.flatName}>{this.props.text}</Text>
                     </View>

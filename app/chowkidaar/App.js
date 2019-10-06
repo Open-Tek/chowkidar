@@ -16,6 +16,8 @@ export default class App extends React.Component {
 
     await Font.loadAsync({
       'proxima': require("./assets/fonts/ProximaNova-Regular.otf"),
+      'proxima-bold': require("./assets/fonts/ProximaNova-Bold.otf"),
+
 
     });
     this.setState({

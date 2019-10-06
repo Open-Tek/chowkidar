@@ -2,10 +2,11 @@ import React from 'react';
 import {Image, Platform} from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 import TabBarIcon from "../components/TabBarIcon";
-import FlatScreen from '../screens/FlatScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import LoginScreen from "../screens/LoginScreen";
+import BuildingScreen from "../screens/BuildingScreen";
+import FlatScreen from "../screens/FlatScreen";
 const config = Platform.select({
     web: { headerMode: 'screen' },
     default: {},
@@ -13,7 +14,8 @@ const config = Platform.select({
 
 const HomeStack = createStackNavigator(
     {
-        Home: FlatScreen,
+        Home: BuildingScreen,
+        Flats: FlatScreen
     },
     config
 );
@@ -94,11 +96,21 @@ SettingsStack.path = '';
 
 const tabNavigator = createBottomTabNavigator({
     HomeStack,
-    LoginStack,
     LinksStack,
     SettingsStack,
 });
 
 tabNavigator.path = '';
 
-export default tabNavigator;
+const rootNavigator = createStackNavigator({
+
+    tabNavigator,
+    LoginStack
+}, {
+    headerMode: 'none',
+    navigationOptions: {
+        headerVisible: false,
+    }
+});
+
+export default rootNavigator;
