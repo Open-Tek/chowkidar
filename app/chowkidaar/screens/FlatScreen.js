@@ -37,7 +37,8 @@ export default class FlatScreen extends React.Component {
             console.log("Response json : " + JSON.stringify(responseJson));
             this.setState({
                 houses:responseJson,
-                buildings: responseJson,
+
+
                 loading: false
             });
         }
@@ -57,7 +58,6 @@ export default class FlatScreen extends React.Component {
                 />
                 <Text style={{fontFamily: "proxima-bold", fontSize: 18, color: Colors.dark_blue, marginLeft: responsiveWidth(5)}}>Flats</Text>
                 <ScrollView style={{flex:1}}>
-                    {this.getAllFlats()}
                     {this.getAllHouses()}
                 </ScrollView>
             </View>
@@ -69,11 +69,7 @@ export default class FlatScreen extends React.Component {
             return this.state.houses.map((item,index)=> <CardComponent text={item.name}number={item.name} key={index} status={item.status}/>)
         }
     }
-    getAllFlats() {
-        if(!this.state.loading) {
-            return this.state.flats.map((item, index) => <CardComponent text={item.name} number={item.name} key={index} status={item.status}/>)
-        }
-    }
+
 }
 
 FlatScreen.navigationOptions = {
