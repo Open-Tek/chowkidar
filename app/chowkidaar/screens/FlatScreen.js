@@ -37,8 +37,6 @@ export default class FlatScreen extends React.Component {
             console.log("Response json : " + JSON.stringify(responseJson));
             this.setState({
                 houses:responseJson,
-
-
                 loading: false
             });
         }
